@@ -1,0 +1,41 @@
+# Python 虚拟环境和缓存
+backend/.venv/
+__pycache__/
+*.pyc
+
+# 前端安装目录和构建结果
+frontend/node_modules/
+frontend/dist/
+
+# 本地检查产生的文件
+output/
+.playwright-cli/
+*.log
+
+# Private/local state and build output (publication hygiene)
+.env
+.env.*
+!.env.example
+!.env.sample
+**/private/
+**/owner_private/
+**/node_modules/
+**/.venv/
+**/__pycache__/
+**/build/
+**/dist/
+**/output/
+**/data/
+**/uploads/
+*.log
+*.sqlite*
+*.db
+*.pem
+*.key
+*.jks
+*.keystore
+*.p12
+*.pfx
+**/local.properties
+**/keystore.properties
+**/key.properties
